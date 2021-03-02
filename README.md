@@ -1,8 +1,12 @@
-{% include list.liquid all=true %}
+---
+sort: 1
+---
 
 # CHIP_CustomizeClusterSupport
 This repository aims to explain how to custmoize your CHIP sample application Cluster Configuration 
 This is going to make use of ZAP Generator and connectedhomeip repo
+
+{% include list.liquid all=true %}
 
 You can find a fork that has a branch bringing Window Covering Client Commands support to CHIP Tool [here](https://github.com/brian-silabs/connectedhomeip)
 

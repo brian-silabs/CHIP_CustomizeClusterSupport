@@ -19,7 +19,7 @@ Node requires v 14.x.x
 Python v3 (3.8 is the one I used)
 
 In order to easily manage node, I highly recommend to use a version manager such as nvm
-A lot of guides exist to guide you through the installation (I took [this one](https://tecadmin.net/how-to-install-nvm-on-ubuntu-20-04/) written for Linux Ubuntu 20.20)
+A lot of guides exist to guide you through the installation (I took [this one](https://tecadmin.net/how-to-install-nvm-on-ubuntu-20-04/) written for Linux Ubuntu 20.04)
 
 ``` console
 sudo apt install curl 
