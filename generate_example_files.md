@@ -59,7 +59,16 @@ Therefore we simply want to run it from the repo root as follows :
 source scripts/tools/zap_generate.sh *path/to/zap.zap*
 ```
 
-If all goes well, you shoul see no error in the STDOUT
+If all goes well, you should see no error in the STDOUT
+
+If you are facing some errors, this is probably tied to NodeJs version.
+To update NodeJs to the last stable version, follow this procedure:
+
+``` console
+npm cache clean -f
+npm install -g n
+sudo n stable
+```
 
 ## Note
 The chip tool requires both controler and chiptool zaps to be generated
